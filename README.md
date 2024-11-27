@@ -1,4 +1,4 @@
-![Block the PC1 accessing web server through SSH](https://github.com/user-attachments/assets/320edf83-d6a3-4279-8fa8-1268a3b37b09)# Bùi Thọ Anh Tú - 22110088
+# Bùi Thọ Anh Tú - 22110088
 
 # Task 1: Firewall configuration 
 **Question 1**: 
