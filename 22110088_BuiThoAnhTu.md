@@ -141,8 +141,11 @@ iptables -L
 **Question 4**:
 - PC1 now servers as a UDP server, make sure that it can reply UDP ping from other hosts on both subnets.
 
+Execute PC1 container and set up a UDP server using nc (netcat)
+
 ```bash
-ping 10.0.2.2
+apk add --no-cache netcat-openbsd
+nc -u -l -p 12345
 ```
 
 - Config personal firewall on PC1 to block UDP accesses from PC2 while leaving UDP access from the server intact.
