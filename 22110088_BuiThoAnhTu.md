@@ -126,7 +126,7 @@ iptables -L
 Config the router to block ssh to web server from PC1 (ip4 = 10.0.2.2)
 
 ```bash
-iptables -A FORWARD -s 10.0.2.2 -d .1.2 -p tcp --dport 22 -j DROP
+iptables -A FORWARD -s 10.0.2.2 -d 10.0.1.2 -p tcp --dport 22 -j DROP
 ```
 
 Check the iptables rules on the router.
